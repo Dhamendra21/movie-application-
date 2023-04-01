@@ -1,0 +1,42 @@
+body{
+  background: #000;
+  
+}
+.loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    margin: auto;
+    height: 80px;
+    animation: spin 700ms linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .movieposter{
+    float: left;
+    height: 300px;
+  }
+  p{
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  h1{
+    background: #dd52cf;
+background: linear-gradient(to right, #d83bc8 0%, #9fa0df 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+  }
+  .form-control{
+    background: #ffffff;
+    /* color: white;  */
+    font-size: 17px;
+  }
+  .form-control:focus{
+    background: #e3b9ec;
+  }
