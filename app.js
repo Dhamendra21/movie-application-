@@ -1,5 +1,5 @@
 
-let API = 'http://www.omdbapi.com/?apikey=f0e27930&t='
+let API = 'https://www.omdbapi.com/?apikey=f0e27930&t='
 
 let loadingstatus = false
 
