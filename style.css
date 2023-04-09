@@ -16,10 +16,7 @@ body{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-  .movieposter{
-    float: left;
-    height: 300px;
-  }
+ 
   p{
     color: #ffffff;
     font-size: 15px;
@@ -39,4 +36,23 @@ background: linear-gradient(to right, #d83bc8 0%, #9fa0df 100%);
   }
   .form-control:focus{
     background: #e3b9ec;
+  }
+  /* .img-continer{
+    position: absolute;
+  } */
+  .movieposter{
+    float: left;
+    height: 300px;
+    position: absolute;
+  }
+  .imdbRat{
+    position: relative;
+    top: 0px;
+    color: #000;
+    box-sizing: border-box;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 3px;
   }
